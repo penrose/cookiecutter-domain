@@ -3,6 +3,8 @@ layout: null
 sitemap: false
 permalink: /robots.txt
 ---
+{% raw %}
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
 Disallow: /search/
+{% endraw %}

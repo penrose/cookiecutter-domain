@@ -3,6 +3,7 @@ title: Welcome
 permalink: /
 ---
 
+{% raw %}
 Welcome! This is a domain page for the software 
 <a href="https://penrose.github.io" target="_blank">Penrose</a>. Penrose enables 
 people to <b>create beautiful diagrams  just by typing mathematical notation in 
@@ -35,3 +36,4 @@ for the {{ site.description }} Domain. You can find it here:
 
 We are here to help! If you have a question, or want to make a contribution, 
 please open <a href="{{ site.github.repository_url }}/issues" target="_blank">an issue</a>.
+{% endraw %}
