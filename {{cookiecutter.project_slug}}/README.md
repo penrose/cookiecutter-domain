@@ -220,3 +220,10 @@ in the [_domains](_domains) folder, but also a unique id! In the example above,
 we see `penrose/{{ cookiecutter.project_slug }}:simple/example`. This also tells the user
 where to find it - under Github organization "penrose," repository "{{ cookiecutter.project_slug }}"
 and subfolder in domains "simple/example.md".
+
+
+### Generate My Own Domain?
+
+We have a cookie cutter template to help you do this! See 
+[penrose/cookiecutter-domain](https://github.com/penrose/cookiecutter-domain) to
+get started.
