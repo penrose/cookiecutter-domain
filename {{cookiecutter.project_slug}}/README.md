@@ -27,7 +27,7 @@ that can be used to generate diagrams.
 
 ### Documentation and Site
 
- - [_config.yml](_config.yml) is the primary configuration file for the site. Variables in this file render as `{{ site.var }}` in the various html includes and templates.
+ - [_config.yml](_config.yml) is the primary configuration file for the site. Variables in this file render as {% raw %}`{{ site.var }}`{% endraw %} in the various html includes and templates.
  - [_layouts](_layouts) are base html templates for pages
  - [_includes](_includes) are snippets of html added to layouts
  - [pages](pages) are generic pages that aren't considered docs
