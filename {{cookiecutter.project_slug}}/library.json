@@ -4,6 +4,7 @@ layout: none
 permalink: /library.json
 ---
 
+{% raw %}
 { "id": "{{ site.repo }}",
   "links": {
     "self": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
@@ -18,3 +19,4 @@ permalink: /library.json
                 {% if item.sub %}"sub": "{{ site.url }}{{ site.baseurl }}/src/sub/{{ item.sub | escape }}",{% endif %}
                 "group": "{{ group.name | escape }}"
             }{% if forloop.last %}{% else %},{% endif %}{% endunless %}{% endfor %}{% endfor %}]}
+{% endraw %}
