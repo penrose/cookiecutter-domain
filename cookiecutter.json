@@ -1,0 +1,16 @@
+{
+    "project_lead": "VanessaSaurus",
+    "project_email": "vsochat@stanford.edu",
+    "project_name": "Linear Algebra",
+    "project_slug": "domain-linear-algebra",
+    "project_short_description": "A domain for Penrose",
+
+    "year": "2018",
+    "version": "0.0.1",
+
+    "repo_user": "penrose",
+    "repo_name": "domain-linear-algebra",
+
+    "twitter_name": "vsoch"
+
+}
