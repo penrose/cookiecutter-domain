@@ -1,6 +1,7 @@
 ---
 layout: null
 ---
+{% raw %}
 (function () {
 	function getQueryVariable(variable) {
 		var query = window.location.search.substring(1),
@@ -102,4 +103,4 @@ layout: null
 	}
 
 	displaySearchResults(window.index.search(query), query); // Hand the results off to be displayed
-})();
+})();{% endraw %}
